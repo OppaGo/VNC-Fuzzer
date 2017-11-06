@@ -293,10 +293,10 @@ coding~~
 
 def main():
 
-	a = RandomData()
-	a.FuzzData()
-	print a.FuzzData()
-	print a.savelog('log5')
+	test = RandomData()
+	test.FuzzData()
+	print test.FuzzData()
+	test.savelog('log5')
 
 
 if __name__ == "__main__":
